@@ -1,0 +1,16 @@
+[package]
+name = "chss"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+actix-cors = "0.6.4"
+askama = "0.12.1"
+actix-web-lab = "0.20"
+env_logger = "0.10"
+log = "0.4"
+# axum = "0.6.20"
+# tokio = { version = "1.34.0", features = ["macros", "rt-multi-thread"] }
